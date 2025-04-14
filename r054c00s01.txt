@@ -1,0 +1,73 @@
+=== System Information ===
+CPU Cores: 64
+Linux [hidden] #1 SMP Fri Feb 19 20:41:01 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+
+=== GPU Information ===
+GPU: NVIDIA L40
+CUDA Version: 8.9
+
+Running 10 benchmark iterations...
+CPU benchmark (strength: 3)
+- Performing 3 iterations at complexity level 3
+Disk I/O benchmark (strength: 3)
+- Testing with 600 MB file, 64 KB blocks
+GPU benchmark (strength: 3)
+- Performing 9 iterations at complexity level 3
+
+Run 1/10... done
+
+Run 2/10... done
+
+Run 3/10... done
+
+Run 4/10... done
+
+Run 5/10... done
+
+Run 6/10... done
+
+Run 7/10... done
+
+Run 8/10... done
+
+Run 9/10... done
+
+Run 10/10... done
+
+=== Benchmark Results ===
+
+CPU Performance:
+- Average: 0.87 seconds
+- 95% Confidence Interval: 0.87 to 0.88 seconds
+- Min: 0.86 seconds (Run 10)
+- Max: 0.89 seconds (Run 8)
+- Standard Deviation: 0.01 seconds
+
+Disk Write Performance:
+- Average Time: 6.02 seconds
+- 95% CI Time: 3.46 to 8.58 seconds
+- Min Time: 2.93 seconds (Run 4)
+- Max Time: 13.00 seconds (Run 2)
+- Average Speed: 1.24 MB/s
+- 95% CI Speed: 0.89 to 1.58 MB/s
+- Min Speed: 0.46 MB/s (Run 2)
+- Max Speed: 2.05 MB/s (Run 4)
+
+Disk Read Performance:
+- Average Time: 0.30 seconds
+- 95% CI Time: 0.29 to 0.31 seconds
+- Min Time: 0.29 seconds (Run 1)
+- Max Time: 0.32 seconds (Run 6)
+- Average Speed: 2004.15 MB/s
+- 95% CI Speed: 1960.00 to 2048.30 MB/s
+- Min Speed: 1867.24 MB/s (Run 6)
+- Max Speed: 2073.23 MB/s (Run 1)
+
+GPU Performance:
+- Average: 0.06 seconds
+- 95% Confidence Interval: -0.04 to 0.15 seconds
+- Min: 0.01 seconds (Run 4)
+- Max: 0.42 seconds (Run 1)
+- Standard Deviation: 0.13 seconds
+
+Benchmark complete!

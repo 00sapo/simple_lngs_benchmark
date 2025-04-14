@@ -1,0 +1,73 @@
+=== System Information ===
+CPU Cores: 20
+Linux cucchia 6.5.0-0.deb12.1-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.5.3-1~bpo12+1 (2023-10-08) x86_64 GNU/Linux
+
+=== GPU Information ===
+GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+CUDA Version: 8.6
+
+Running 10 benchmark iterations...
+CPU benchmark (strength: 3)
+- Performing 3 iterations at complexity level 3
+Disk I/O benchmark (strength: 3)
+- Testing with 600 MB file, 64 KB blocks
+GPU benchmark (strength: 3)
+- Performing 9 iterations at complexity level 3
+
+Run 1/10... done
+
+Run 2/10... done
+
+Run 3/10... done
+
+Run 4/10... done
+
+Run 5/10... done
+
+Run 6/10... done
+
+Run 7/10... done
+
+Run 8/10... done
+
+Run 9/10... done
+
+Run 10/10... done
+
+=== Benchmark Results ===
+
+CPU Performance:
+- Average: 0.55 seconds
+- 95% Confidence Interval: 0.53 to 0.56 seconds
+- Min: 0.53 seconds (Run 2)
+- Max: 0.58 seconds (Run 4)
+- Standard Deviation: 0.01 seconds
+
+Disk Write Performance:
+- Average Time: 0.15 seconds
+- 95% CI Time: 0.14 to 0.16 seconds
+- Min Time: 0.14 seconds (Run 8)
+- Max Time: 0.17 seconds (Run 10)
+- Average Speed: 39.69 MB/s
+- 95% CI Speed: 37.95 to 41.43 MB/s
+- Min Speed: 35.50 MB/s (Run 10)
+- Max Speed: 42.53 MB/s (Run 8)
+
+Disk Read Performance:
+- Average Time: 0.09 seconds
+- 95% CI Time: 0.06 to 0.12 seconds
+- Min Time: 0.05 seconds (Run 10)
+- Max Time: 0.16 seconds (Run 3)
+- Average Speed: 8195.67 MB/s
+- 95% CI Speed: 5794.55 to 10596.80 MB/s
+- Min Speed: 3865.81 MB/s (Run 3)
+- Max Speed: 11709.83 MB/s (Run 10)
+
+GPU Performance:
+- Average: 0.11 seconds
+- 95% Confidence Interval: 0.09 to 0.13 seconds
+- Min: 0.10 seconds (Run 4)
+- Max: 0.19 seconds (Run 1)
+- Standard Deviation: 0.03 seconds
+
+Benchmark complete!
